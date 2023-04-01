@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1e1e1e;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #181818;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.text_header{
+    display: flex;
+    font-size: 25px;
+    color: #FFF;
+    align-items: center;
+    letter-spacing: 10px;
+    text-shadow: 0px 0px 10px #FF0000;
+}
+
+#indentification{
+    display: flex;
+    justify-content: center;
+}
+
+.profile_adobe{
+    margin-top: 5px;
+    align-items: center;
+    color: #FFF;
+}
+
+.profile_title h1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-shadow: 1px 0px 5px #FFF;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 8px;
+}
+
+.img_adobe{
+    margin-top: 20px;
+    border: 5px solid #FFF;
+    margin-bottom: 0px;
+}
+
+.date_adobe{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 23px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #FFF;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FFF;
+    display: inline-block;
+    margin-left: 85px;
+}
+
+#history{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    border-top: 1px solid #FFF;
+    flex-direction: column;
+}
+
+.title_history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #181818;
+    border-bottom: 1px solid #FFF;
+}
+
+.title_history h1{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 46px;
+    color: #FFF;
+    letter-spacing: 5px;
+}
+
+.text_history{
+    display: flex;
+    justify-content: center;
+}
+
+#text_of_history{
+    display: flex;
+    justify-content: center;
+}
+
+.container .wikpedia_adobe
+{
+    color: #FFF;
+    margin-top: 10px;
+    font-size: 18px;
+    display: block;
+    border: 1px solid #FFF;
+    padding: 15px;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+#cartoon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desenho_adobe_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.desenho_adobe_img{
+    display: flex;
+    justify-content: center;
+
+}
+
+.desenho_adobe_img_mobile{
+    display: none;
+}
+
+.desenho_adobe_text h3{
+    text-transform: uppercase;
+    border-bottom: 1px solid #FFF;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: #FFF;
+}
+
+footer{
+    display: flex;
+    font-size: 15px;
+    color: #FFF;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #FFF;
+}
+
+footer a{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media (max-width: 700px){
+    .text_header{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    .desenho_adobe_img_mobile{
+        display: flex;
+        justify-content: center;
+    }
+    .desenho_adobe_img{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer a{
+        font-size: 13px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
